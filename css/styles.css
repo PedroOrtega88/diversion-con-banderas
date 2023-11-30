@@ -28,12 +28,10 @@ h1 {
 
 #overlay {
   display: none;
-  position: fixed;
-  top: 0;
+   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
   z-index: 900;
 }
 
@@ -50,7 +48,7 @@ h1 {
 }
 
 img {
-  width: 200px;
-  height: 300px;
-  cursor: pointer;
+  width: 100px;
+  height: 200px;
+  
 }
