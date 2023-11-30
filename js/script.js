@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const countriesListContainer = document.getElementById('countries-list');
     const countryInfoContainer = document.getElementById('country-info');
-        const flag = document.getElementById('flag');
+    const flag = document.getElementById('flag');
     const capital = document.getElementById('capital');
     const population = document.getElementById('population');
     const road = document.getElementById('road');
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     closeBtn.addEventListener('click', closeBtn);
     overlay.addEventListener('click', closeBtn);
 
-    //obtuener api
+    //obtener api
     async function fetchCountries() {
         const response = await fetch('https://restcountries.com/v2/all');
         const data = await response.json();
